@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Futuro do Planeta</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main class="caixa-principal">
+
+        <!-- TELA INICIAL -->
+        <section class="tela-inicial">
+            <h1>🌱 O Futuro do Planeta</h1>
+            <p>Você está prestes a tomar decisões que podem mudar o futuro do meio ambiente.</p>
+            <p>Suas escolhas irão construir uma história sobre preservação ambiental e o futuro do planeta.</p>
+            <button class="botao-iniciar" type="button">Iniciar</button>
+        </section>
+
+        <!-- TELA DO JOGO -->
+        <section class="jogo" hidden>
+            <h1>🌎 O Futuro do Planeta</h1>
+            <p class="progresso"></p>
+            <div class="caixa-perguntas"></div>
+            <div class="caixa-alternativas"></div>
+        </section>
+
+        <!-- TELA DE RESULTADO -->
+        <section class="caixa-resultado" hidden>
+            <h2>🌿 Seu futuro em 2049</h2>
+            <p class="texto-resultado"></p>
+            <button class="novamente-btn" type="button">Jogar novamente</button>
+        </section>
+
+    </main>
+
+    <!-- O Script principal carregado como Módulo -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
